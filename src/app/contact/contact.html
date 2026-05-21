@@ -1,13 +1,7 @@
 <div class="page">
 
-  <!-- Background slideshow -->
-  <div class="slideshow">
-    @for (img of slides; track img; let i = $index) {
-      <div class="slide" [style.background-image]="'url(' + img + ')'"
-           [class.active]="i === currentSlide"></div>
-    }
-    <div class="slide-overlay"></div>
-  </div>
+  <!-- Background -->
+  <div class="bg" style="background-image: url('images/Slideshow2.jpg')"></div>
 
   <!-- Logo + Brand -->
   <header class="logo-header">
